@@ -1,0 +1,4 @@
+data/
+*.svg
+__pycache__/
+.vscode/

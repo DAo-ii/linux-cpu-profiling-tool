@@ -1,0 +1,44 @@
+---
+pid: 15107
+cwd: /home/yxy
+last_command: sudo python3 analyzer.py 20260427_174627
+last_exit_code: 3
+---
+yxy@yxy-VMware-Virtual-Platform:~$ sudo rm -rf data/*
+[sudo] yxy 的密码： 
+yxy@yxy-VMware-Virtual-Platform:~$ sudo rm -rf data/*
+yxy@yxy-VMware-Virtual-Platform:~$ sudo python3 collector.py
+[2026-04-27 17:45:27] 采集器已启动（7x24 常驻）。提示：停止可发送 SIGTERM（慢退出），或连发两次以快速退出。
+[2026-04-27 17:45:27] 正在采集全局 CPU 性能数据（60s），输出：data/perf_20260427_174527.data ...
+^C[2026-04-27 17:46:26] 收到 SIGINT，将于本轮采集结束后优雅退出（慢退出）。
+[2026-04-27 17:46:28] 本轮采集完成。
+[2026-04-27 17:46:28] 已按要求优雅退出。
+yxy@yxy-VMware-Virtual-Platform:~$ sudo ls data/
+perf_20260427_174521.data      perf_20260427_174542.data  perf_20260427_174612.data
+perf_20260427_174522.data      perf_20260427_174547.data  perf_20260427_174617.data
+perf_20260427_174527.data      perf_20260427_174552.data  perf_20260427_174622.data
+perf_20260427_174527.data.old  perf_20260427_174557.data  perf_20260427_174627.data
+perf_20260427_174532.data      perf_20260427_174602.data
+perf_20260427_174537.data      perf_20260427_174607.data
+yxy@yxy-VMware-Virtual-Platform:~$ sudo python3 analyzer.py 20260427_174627
+[2026-04-27 17:47:17] 已选择最近的采样文件：data/perf_20260427_174627.data（匹配方式=filename_ts，时间差≈0s）。
+[2026-04-27 17:47:17] 正在解析 perf 数据并生成火焰图（可能需要一些时间）...
+[2026-04-27 17:47:18] 生成失败：perf script 失败（rc=255）：File data/perf_20260427_174627.data not owned by current user or root (use -f to override)
+yxy@yxy-VMware-Virtual-Platform:~$ sudo python3 analyzer.py 20260427_174627
+[2026-04-27 17:48:40] 已选择最近的采样文件：data/perf_20260427_174627.data（匹配方式=filename_ts，时间差≈0s）。
+[2026-04-27 17:48:40] 正在解析 perf 数据并生成火焰图（可能需要一些时间）...
+[2026-04-27 17:48:40] 检测到 perf.data 归属限制，自动切换为强制模式：perf script -f ...
+[2026-04-27 17:48:40] 生成失败：perf script -f 失败（rc=255）：zero-sized data (data/perf_20260427_174627.data), nothing to do!
+yxy@yxy-VMware-Virtual-Platform:~$ perf_20260427_174537.data      perf_20260427_174607.data
+yxy@yxy-VMware-Virtual-Platform:~$ sudo python3 analyzer.py 20260427_174627
+[2026-04-27 17:47:17] 已选择最近的采样文件：data/perf_20260427_174627.data（匹配方式=filename_ts，时间差≈0s）。
+[2026-04-27 17:47:17] 正在解析 perf 数据并生成火焰图（可能需要一些时间）...
+[2026-04-27 17:47:18] 生成失败：perf script 失败（rc=255）：File data/perf_20260427_174627.data not owned by current user or root (use -f to override)
+yxy@yxy-VMware-Virtual-Platform:~$ ^C
+yxy@yxy-VMware-Virtual-Platform:~$ sudo python3 analyzer.py 20260427_174627
+[2026-04-27 17:50:49] 已自动跳过 66 个零字节无效样本。
+[2026-04-27 17:50:49] 已选择最近的采样文件：data/perf_20260427_174521.data（匹配方式=filename_ts，时间差≈66s）。
+[2026-04-27 17:50:49] 正在解析 perf 数据并生成火焰图（可能需要一些时间）...
+[2026-04-27 17:50:49] 生成失败：perf script 失败（rc=255）：WARNING: The data/perf_20260427_174521.data file's data size field is 0 which is unexpected.
+Was the 'perf record' command properly terminated?
+yxy@yxy-VMware-Virtual-Platform:~$

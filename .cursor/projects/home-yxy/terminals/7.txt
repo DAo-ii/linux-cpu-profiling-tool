@@ -1,0 +1,19 @@
+---
+pid: 18697
+cwd: /home/yxy
+last_command: sudo python3 collector.py
+last_exit_code: 0
+---
+yxy@yxy-VMware-Virtual-Platform:~$ sudo rm -rf data/*
+[sudo] yxy 的密码： 
+对不起，请重试。
+[sudo] yxy 的密码： 
+对不起，请重试。
+[sudo] yxy 的密码： 
+yxy@yxy-VMware-Virtual-Platform:~$ sudo python3 collector.py
+[2026-04-27 17:53:29] 采集器已启动（7x24 常驻）。提示：停止可发送 SIGTERM（慢退出），或连发两次以快速退出。
+[2026-04-27 17:53:29] 正在采集全局 CPU 性能数据（60s），输出：data/perf_20260427_175329.data ...
+^C[2026-04-27 17:54:11] 收到 SIGINT，将于本轮采集结束后优雅退出（慢退出）。
+[2026-04-27 17:54:30] 本轮采集完成，样本有效（3489894 bytes）。
+[2026-04-27 17:54:30] 已按要求优雅退出。
+yxy@yxy-VMware-Virtual-Platform:~$

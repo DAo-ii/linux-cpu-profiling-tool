@@ -1,0 +1,159 @@
+<!DOCTYPE html><html lang=en><head xmail_uin=13102663860731646><meta charset=UTF-8><title>QQ邮箱</title><script nonce=$param.nonce.DATA$>function getCookie(e){var t=new RegExp("(?:^|;+|\\s+)"+e+"=([^;]*)"),r=document.cookie.match(t);return(r?r[1]:"")||""}function getQuery(e){var t=new RegExp("(^|&)"+e+"=([^&]*)(&|$)"),r=window.location.search.substr(1).match(t);return null!=r?unescape(r[2]):null}function sendReport(e){}function monitor(e,t){}function getCurrentUin(){return document.head.getAttribute(" xmail_uin")}function tdw(e){}var uin=getCurrentUin()||getCookie("xm_uin")||"0",hosts=["wx.mail.qq.com","secres.wxqcloud.qq.com","res.wx.qq.com","dev.mail.qq.com"],isLoadJsFailed=!1,jsRetryFlag={};function getUrlPath(e){return e.match(/\/js\/.*\.js/g)}function report(e,t){var r="/info/report?func=4&r="+(parseInt(1e13*Math.random())+""+(new Date).getTime()),n=new XMLHttpRequest;n.open("POST",r),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(n=null)},n.send('{"items":[{"itemname":"'+e+'","value":1,"logid": '+(t||"16997")+"}]}")}function _extendAttr(e,t,r){var n={crossorigin:"crossOrigin"};if(e&&e.attributes){for(var o in e.attributes)if(e.attributes.hasOwnProperty(o)){var i=e.attributes[o],a=n[i.name]||i.name;if("integrity"===a&&r>2)continue;t.setAttribute(a,i.value)}e.isBundled&&(t.isBundled=!0)}}function catchLoadError(e){var t=e.nodeName,r="SCRIPT"===t,n=r?"src":"href",o=e[n],i=getRetryUrl(o),a=i.newUrl,s=i.reloadTimes;if(!a)return!1;var c=window.document;if(-1===o.indexOf("/chunk/")&&r){if("loading"===c.readyState){var u="jsRetrySrc"+(new Date).getTime();document.write('<script src="'+a+'" id="'+u+'"><\/script>'),document.getElementById(u).onload=function(){onScriptRetrySuccess(a)}}return!0}var d=document.createElement(t);_extendAttr(e,d,s);var l=e.originLoadHandler||e.onload;d.originLoadHandler=l,d.onerror=function(t){d.parentNode.removeChild(d),e.onerror&&e.onerror(t)};var m=!1;return d.onload=d.onreadystatechange=function(t){m||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState||(m=!0,d.onload=d.onreadystatechange=null,window.onScriptRetrySuccess(a),l&&l(t),r?d.parentNode.removeChild(d):e.parentNode.removeChild(e))},d[n]=a,e.parentNode.insertBefore(d,e),!0}function onScriptRetrySuccess(e){jsRetryFlag[getUrlPath(e)]=!0}function isAssetRetrySuccess(){if(!isLoadJsFailed)return!0;var e=!0,t=!1,r=void 0;try{for(var n,o=Object.keys(jsRetryFlag)[Symbol.iterator]();!(e=(n=o.next()).done);e=!0){var i=n.value;if(!jsRetryFlag[i])return!1}}catch(e){t=!0,r=e}finally{try{!e&&o.return&&o.return()}finally{if(t)throw r}}return!0}function getRetryUrl(e){var t=0,r="",n=e.split("?")[1];if(n){var o=n.match(/autoRetry=(\d+)&?/);o&&o.length>1&&(t=Number(o[1]))}return t<1&&(r=(r=e.replace(/\/\/wx.mail.qq.com/,"//rescdn.qqmail.com").replace(/\/\/secres.wxqcloud.qq.com/,"//rescdn.qqmail.com").replace(/\/\/res.wx.qq.com/,"//rescdn.qqmail.com").replace(/\/\/dev.mail.qq.com/,"//rescdn.qqmail.com"))!==e?r+(n?"&":"?")+"autoRetry=1":""),{newUrl:r,reloadTimes:t+1}}function getUrlParam(e){var t,r,n,o=window.location.href,i=o.substring(o.indexOf("?")+1).split("#")[0];if(i)for(t=i.split("&"),r=0;r<t.length;r++)if((n=t[r].split("="))[0]===e)return n[1];return null}window.addEventListener("error",(function(e){try{if(!event||!event.target||!event.srcElement)return;var t=event.target||event.srcElement,r=t.src||t.href||"";if(r.indexOf(".js")>-1||r.indexOf(".css")>-1){for(var n=!1,o=0;o<hosts.length;o++)if(r.indexOf(hosts[o])>-1){n=!0;break}if(!n)return;isLoadJsFailed||(isLoadJsFailed=!0),jsRetryFlag[getUrlPath(r)]=!1,catchLoadError(t)&&e.stopImmediatePropagation()}}catch(e){console.warn(e)}}),!0),window.onScriptRetrySuccess=onScriptRetrySuccess,window.__isAssetRetrySuccess=isAssetRetrySuccess;var sid=getUrlParam("sid")||getCookie("xm_sid")||"";function makeRequest(e,t){return new Promise((function(r,n){var o=new XMLHttpRequest;o.open(e,t),o.setRequestHeader("Accept","application/json, text/plain, */*"),o.onload=function(){this.status>=200&&this.status<300?r(o.response):n({status:this.status,statusText:o.statusText})},o.onerror=function(){n({status:this.status,statusText:o.statusText})},o.send()}))}function setCookie(e,t,r){var n;if(r){var o=new Date;o.setTime(o.getTime()+24*r*60*60*1e3),n="; expires="+o.toUTCString()}else n="";document.cookie=e.toString()+"="+t.toString()+n.toString()+"; path=/; domain=.mail.qq.com"}function deleteCookie(e){setCookie(e,"",-1)}function getRandomString(){return(1e13*Math.random()).toFixed(0).toString()+Date.now()}</script><meta charset=UTF-8><meta name=format-detection content="telephone=no"><meta name=renderer content=webkit><meta name=save content=history><meta name=version content=mico><meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1"><meta http-equiv=Content-Type content="text/html; charset=utf-8"><link rel=icon type=image/png sizes=16x16 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_16h.bc34dcb.png><link rel=icon type=image/png sizes=32x32 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_32h.65f829f.png><link rel=icon type=image/png sizes=48x48 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_48h.4e79647.png><link rel=icon type=image/png sizes=96x96 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_96h.8d124a7.png><script nonce=$param.nonce.DATA$>!function(){var n=/^[a-zA-Z_\\-]+(?=#)/,r=/^[a-zA-Z_\\-]+#/;function _(n,r){return n.replace(/{(\d+)}/g,(function(n,_){return _ in r?r[_]:n}))}window.I18N={r:function(n,r){return _(n,r)},t:function(e,t){e=e||"";var i=n.exec(e),u=(window.__I18N_PKG__||{})[window.__I18N_LANG__]||{};if(i&&u[i[0]])return _(u[i[0]],t);return _(e.replace(r,""),t)}}}()</script><meta charset=UTF-8><meta name=format-detection content="telephone=no"><meta name=renderer content=webkit><meta name=save content=history><meta name=version content=mico><meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1"><meta http-equiv=Content-Type content="text/html; charset=utf-8"><link rel=icon type=image/png sizes=16x16 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_16h.bc34dcb.png><link rel=icon type=image/png sizes=32x32 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_32h.65f829f.png><link rel=icon type=image/png sizes=48x48 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_48h.4e79647.png><link rel=icon type=image/png sizes=96x96 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_96h.8d124a7.png><script nonce=$param.nonce.DATA$>function createRequest(e){try{var t=window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):window.XMLHttpRequest?new XMLHttpRequest:null;t.open(e.method,e.url),t.onreadystatechange=function(){4===t.readyState&&200===t.status&&(console.log("this is response",t),e.success&&e.success(JSON.parse(t.responseText)))},t.send(e.params)}catch(e){console.error("http request error",e)}}var webAssemblySupported=function(){try{if("object"==typeof WebAssembly&&"function"==typeof WebAssembly.instantiate){var e=new WebAssembly.Module(Uint8Array.of(0,97,115,109,1,0,0,0));if(e instanceof WebAssembly.Module)return new WebAssembly.Instance(e)instanceof WebAssembly.Instance}}catch(e){console.log(e)}return!1}();function getCookie(e){for(var t=e+"=",n=document.cookie.split(";"),o=0;o<n.length;o++){for(var s=n[o];" "===s.charAt(0);)s=s.substring(1,s.length);if(0===s.indexOf(t))return s.substring(t.length,s.length)}return""}function setCookie(e,t,n){var o;if(n){var s=new Date;s.setTime(s.getTime()+24*n*60*60*1e3),o="; expires="+s.toUTCString()}else o="";document.cookie=e.toString()+"="+t.toString()+o.toString()+"; path=/; domain=.mail.qq.com"}function deleteCookie(e){setCookie(e,"",-1)}function IEVersion(){var e=navigator.userAgent,t=e.indexOf("Trident")>-1&&e.indexOf("rv:11.0")>-1;if(e.indexOf("compatible")>-1&&e.indexOf("MSIE")>-1){new RegExp("MSIE (\\d+\\.\\d+);").test(e);var n=parseFloat(RegExp.$1);return n>=7&&n<=10?n:6}return t?11:-1}</script></head><body><script type=text/javascript>document.write("<script type='text/javascript' src='https://rescdn.qqmail.com/qqmail/assets/deviceString.js?r=" + Date.now() + "'><\/script>");</script><script nonce=$param.nonce.DATA$>document.domain = "mail.qq.com";
+    function xmlHttp() {
+      return window.ActiveXObject ? new ActiveXObject('Microsoft.XMLHTTP') : (window.XMLHttpRequest ? new XMLHttpRequest() : null);
+    }
+
+    var callbacks = [];
+    var isLoading = false;
+
+    function getResFrom(text, key) {
+      text = text.replace('{"head":{"', '');
+      var arr, val;
+      arr = text.split(',\"');
+      for (var i = 0; i < arr.length; i++) {
+        val = arr[i].split('\":');
+        if (val[0] === key) return val[1].replace(/}/g, '');
+      }
+      return ''
+    }
+
+    function getSid() {
+      var uin = document.head.getAttribute('xmail_uin');
+      var xm_muti_sid = getCookie('xm_muti_sid');
+      var arr = xm_muti_sid.split('|');
+      for (var i = 0; i < arr.length; i++) {
+        var item = arr[i];
+        var keyValues = item.split('&');
+        if (keyValues[0] === uin) {
+          return keyValues[1];
+        }
+      }
+      return '';
+    }
+
+    var retry;
+    var getAccountsList
+    if (!webAssemblySupported) {
+      retry = function(callback, sid) {
+        callbacks.push(callback);
+        if (isLoading) {
+          return
+        }
+
+        xhr = xmlHttp();
+        isLoading = true;
+        xhr.open('POST', 'https://wx.mail.qq.com/login/login?sid=' + getSid(), true);
+        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            isLoading = false;
+            var isSuccess = false;
+            try {
+              res = JSON.parse(xhr.responseText);
+              console.log('retry res', xhr.responseText);
+              isSuccess = res.body;
+            } catch (e) {
+              var responseText = xhr.responseText
+              var ret = getResFrom(responseText, 'ret');
+              isSuccess = ret === '0'
+            }
+            if (isSuccess) {
+              for (var i = 0; i < callbacks.length; i++) {
+                callbacks[i] && callbacks[i]({ isSuccess: true, result: res });
+              }
+            } else {
+              top.location.replace('https://mail.qq.com?cancel_login=true&from=ajax_proxy');
+            }
+            callbacks = [];
+          }
+        }
+        var loginParams = 'filter_param={"timestamp":' + (new Date).getTime() + ',"nonce":"' + String(Math.ceil(Math.random() * 999999999999999 + 1000000000000000)) + '"}&auth_type=6';
+        xhr.send(loginParams);
+      }
+    }
+
+    var crossXhrMap = {};
+    var crossXhrEvents = {
+      init: 'init',
+      abort: 'abort',
+      open: 'open',
+      send: 'send',
+      tryLogin: 'tryLogin',
+      setRequestHeader: 'setRequestHeader',
+      onreadystatechange: 'onreadystatechange',
+    };
+    window.addEventListener('message', function(event) {
+      var data = event.data;
+      var parentHost = 'https://mail.qq.com';
+      if (event.origin !== parentHost || !data || !crossXhrEvents[data.eventName]) {
+        return;
+      }
+
+      var params = data.data;
+      var seqId = data.seqId;
+      var xhr = crossXhrMap[seqId];
+      var eventName = data.eventName;
+
+      if (!xhr && eventName !== crossXhrEvents.init && eventName !== crossXhrEvents.tryLogin) {
+        console.error('这里不应该为空', event);
+        return;
+      }
+
+      switch (eventName) {
+        case crossXhrEvents.tryLogin:
+          console.log('do window.retry');
+          window.retry(function(data) {
+            var res = {
+              eventName: crossXhrEvents.tryLogin,
+              seqId: seqId,
+              data: data,
+            };
+            window.parent.postMessage(res, parentHost);
+          });
+          break;
+
+        case crossXhrEvents.init:
+          var obj = xmlHttp();
+          obj.onreadystatechange = function () {
+            var res = {
+              eventName: crossXhrEvents.onreadystatechange,
+              seqId: seqId,
+              data: {
+                status: this.status,
+                response: this.response,
+                readyState: this.readyState,
+                responseURL: this.responseURL,
+                responseText: this.responseText,
+              },
+            };
+            window.parent.postMessage(res, parentHost);
+            if (this.readyState === 4) {
+              // 不能delete，因为同一个xhr对象可能会被二次发起
+              // delete crossXhrMap[seqId];
+            }
+          };
+          crossXhrMap[seqId] = obj;
+          break;
+
+        case crossXhrEvents.open:
+          xhr.open(params.method, params.url, params.async);
+          break;
+
+        case crossXhrEvents.send:
+          xhr.send(params.body);
+          break;
+
+        case crossXhrEvents.setRequestHeader:
+          xhr.setRequestHeader(params.header, params.value);
+          break;
+      }
+    });</script><script src=https://res.wx.qq.com/t/webmail/webmail/res/js/manifest-web.41addb3c2fb048808922.js crossorigin=anonymous></script><script src=https://res.wx.qq.com/t/webmail/webmail/res/js/vendor-web.756d7c98f5b996fa7a65.js crossorigin=anonymous></script><script src=https://res.wx.qq.com/t/webmail/webmail/res/js/ajax_proxy-web.1d1e8f650887d4f68aa7.js crossorigin=anonymous></script></body></html>��܁ �      f��Kf��cGdf��K   �    O^partitionKey=%28https%2Cqq.com%29,:https://wx.mail.qq.com/list/readtemplate?name=ajax_proxy.html&r=1727978059302&qm_sid=K9WduQfdgId5mTBW&sid=zf5mUoy_a1QuB1dtAKl4QgAA necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAAAAgAAAAAAAAAAAAAAAAAAAAEAOQFmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAdcMIIHWDCCBkCgAwIBAgIMXeKmjRLxlOnDP1E0MA0GCSqGSIb3DQEBCwUAMGYxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTwwOgYDVQQDEzNHbG9iYWxTaWduIE9yZ2FuaXphdGlvbiBWYWxpZGF0aW9uIENBIC0gU0hBMjU2IC0gRzMwHhcNMjMxMTE0MDc1MTAyWhcNMjQxMjE1MDc1MTAxWjCBiDELMAkGA1UEBhMCQ04xEjAQBgNVBAgTCUd1YW5nZG9uZzERMA8GA1UEBxMIU2hlbnpoZW4xOjA4BgNVBAoTMVNoZW56aGVuIFRlbmNlbnQgQ29tcHV0ZXIgU3lzdGVtcyBDb21wYW55IExpbWl0ZWQxFjAUBgNVBAMMDSoubWFpbC5xcS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDc0Eiul5PCKfv+jeqrwzXxAnhF6nzzw8NOCz/tgkdV3b7vSX6PT+sL1JOhEQuI4vDc2C1ChcYRS0+DRaQT+4iwn6Aj7ahpbbTlvUeh76sirWjlBb+Nh6HaxMu2kRuCetGkQiv8AicvXiMoofbUl2J0OMDRrGwST2JozFkBuxeWMOAtEH/kcX2hjTta+dVZJhLEvVxk0q9FvXB16styhTXGyz4353lf1Mo1QP814LDjdQqvuF5Mzl/rtPPMjgzLMSLLKkTtRTJYewlpO4sJwj5Ahezihgz0Bm/YUVBqn8zMFmX6fevM9wsKb9e/tVZjipDsOcFE77ikGsbVpPiGALEvAgMBAAGjggPhMIID3TAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADCBngYIKwYBBQUHAQEEgZEwgY4wSwYIKwYBBQUHMAKGP2h0dHA6Ly9zZWN1cmUuZ2xvYmFsc2lnbi5jb20vY2FjZXJ0L2dzb3JnYW5pemF0aW9udmFsc2hhMmczLmNydDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AyLmdsb2JhbHNpZ24uY29tL2dzb3JnYW5pemF0aW9udmFsc2hhMmczMFYGA1UdIARPME0wQQYJKwYBBAGgMgEUMDQwMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNpZ24uY29tL3JlcG9zaXRvcnkvMAgGBmeBDAECAjBGBgNVHR8EPzA9MDugOaA3hjVodHRwOi8vY3JsLmdsb2JhbHNpZ24uY29tL2dzb3JnYW5pemF0aW9udmFsc2hhMmczLmNybDCBmgYDVR0RBIGSMIGPgg0qLm1haWwucXEuY29tggwqLmRhdi5xcS5jb22CDCouZWFzLnFxLmNvbYINKi5mb3htYWlsLmNvbYIPKi53ZWl4aW4ucXEuY29tggpkYXYucXEuY29tgglleC5xcS5jb22CD29wZW5tYWlsLnFxLmNvbYINd2VpeGluLnFxLmNvbYILbWFpbC5xcS5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB8GA1UdIwQYMBaAFGiGuH162W1Ja4cvGIsVNGzXtHoOMB0GA1UdDgQWBBRyrMQKw7q9Aa8x9QyKHimJO4GABTCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHYASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGLzM/8swAABAMARzBFAiAJNdCJ5W9yRvTCsSMeaskY1/S7lnb7345WiAZx0iMrfgIhAK1emX+Up9T/b3RguVlf41ywhl77PNT5JqEGErOiDGcPAHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGLzM/8mAAABAMARzBFAiEA51L9o4gCp+L2v9I0GniOnUaKwm61f3idGoyW8YoJHtwCIEgrp3D64mufupsJRsOczdPstJBPG5eO0zjb0eTf88M5AHYAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhCCp/mZ0xaOnQAAAGLzM/82wAABAMARzBFAiEA5e2rXf1sX+0SHZg7+Cqsasd3S65B/JO78wnGoyyx0z0CIFsh/M7RqGxlzQWwNfCu82smdpM9WlpKoDVti2AQ2gxpMA0GCSqGSIb3DQEBCwUAA4IBAQBW3gnClRNh/eQwIeu3tDSJjzsL9IfElR3Ye5WZ9Y6rZKcEs2o2WNqkPgkrEWY+bURS8VMJiTO/jNmBmoruntcs54vTlJ5f50s1uO0DQndiBnnlcxXHex3Fz6zXvhj5GnDc7OZNge4CmwRuN3iSSTQzGM/WYJnTeLFyrcLtgJKLFPaFQM2tKP8Cse13TVedwxfUgT3IpXhUtHv20H/XcfmTxBvyLytsFggETelg3TkKE+dMenwenOp9p1M8N7HWkR8otn9za2vYArVN1/nybcZ9BPLZAFWOKRAZc9ZJU8lliU2uaJqQ/iBlUqetpoeiPyRuujgyD1W/V8djYkCmLntSwC8AAwAAAAAAAQEAAAAAAAAEUDI1NgAAABBSU0EtUEtDUzEtU0hBNTEyAANmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAdcMIIHWDCCBkCgAwIBAgIMXeKmjRLxlOnDP1E0MA0GCSqGSIb3DQEBCwUAMGYxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTwwOgYDVQQDEzNHbG9iYWxTaWduIE9yZ2FuaXphdGlvbiBWYWxpZGF0aW9uIENBIC0gU0hBMjU2IC0gRzMwHhcNMjMxMTE0MDc1MTAyWhcNMjQxMjE1MDc1MTAxWjCBiDELMAkGA1UEBhMCQ04xEjAQBgNVBAgTCUd1YW5nZG9uZzERMA8GA1UEBxMIU2hlbnpoZW4xOjA4BgNVBAoTMVNoZW56aGVuIFRlbmNlbnQgQ29tcHV0ZXIgU3lzdGVtcyBDb21wYW55IExpbWl0ZWQxFjAUBgNVBAMMDSoubWFpbC5xcS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDc0Eiul5PCKfv+jeqrwzXxAnhF6nzzw8NOCz/tgkdV3b7vSX6PT+sL1JOhEQuI4vDc2C1ChcYRS0+DRaQT+4iwn6Aj7ahpbbTlvUeh76sirWjlBb+Nh6HaxMu2kRuCetGkQiv8AicvXiMoofbUl2J0OMDRrGwST2JozFkBuxeWMOAtEH/kcX2hjTta+dVZJhLEvVxk0q9FvXB16styhTXGyz4353lf1Mo1QP814LDjdQqvuF5Mzl/rtPPMjgzLMSLLKkTtRTJYewlpO4sJwj5Ahezihgz0Bm/YUVBqn8zMFmX6fevM9wsKb9e/tVZjipDsOcFE77ikGsbVpPiGALEvAgMBAAGjggPhMIID3TAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADCBngYIKwYBBQUHAQEEgZEwgY4wSwYIKwYBBQUHMAKGP2h0dHA6Ly9zZWN1cmUuZ2xvYmFsc2lnbi5jb20vY2FjZXJ0L2dzb3JnYW5pemF0aW9udmFsc2hhMmczLmNydDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AyLmdsb2JhbHNpZ24uY29tL2dzb3JnYW5pemF0aW9udmFsc2hhMmczMFYGA1UdIARPME0wQQYJKwYBBAGgMgEUMDQwMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNpZ24uY29tL3JlcG9zaXRvcnkvMAgGBmeBDAECAjBGBgNVHR8EPzA9MDugOaA3hjVodHRwOi8vY3JsLmdsb2JhbHNpZ24uY29tL2dzb3JnYW5pemF0aW9udmFsc2hhMmczLmNybDCBmgYDVR0RBIGSMIGPgg0qLm1haWwucXEuY29tggwqLmRhdi5xcS5jb22CDCouZWFzLnFxLmNvbYINKi5mb3htYWlsLmNvbYIPKi53ZWl4aW4ucXEuY29tggpkYXYucXEuY29tgglleC5xcS5jb22CD29wZW5tYWlsLnFxLmNvbYINd2VpeGluLnFxLmNvbYILbWFpbC5xcS5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB8GA1UdIwQYMBaAFGiGuH162W1Ja4cvGIsVNGzXtHoOMB0GA1UdDgQWBBRyrMQKw7q9Aa8x9QyKHimJO4GABTCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHYASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGLzM/8swAABAMARzBFAiAJNdCJ5W9yRvTCsSMeaskY1/S7lnb7345WiAZx0iMrfgIhAK1emX+Up9T/b3RguVlf41ywhl77PNT5JqEGErOiDGcPAHYA7s3QZNXbGs7FXLedtM0TojKHRny87N7DUUhZRnEftZsAAAGLzM/8mAAABAMARzBFAiEA51L9o4gCp+L2v9I0GniOnUaKwm61f3idGoyW8YoJHtwCIEgrp3D64mufupsJRsOczdPstJBPG5eO0zjb0eTf88M5AHYAdv+IPwq2+5VRwmHM9Ye6NLSkzbsp3GhCCp/mZ0xaOnQAAAGLzM/82wAABAMARzBFAiEA5e2rXf1sX+0SHZg7+Cqsasd3S65B/JO78wnGoyyx0z0CIFsh/M7RqGxlzQWwNfCu82smdpM9WlpKoDVti2AQ2gxpMA0GCSqGSIb3DQEBCwUAA4IBAQBW3gnClRNh/eQwIeu3tDSJjzsL9IfElR3Ye5WZ9Y6rZKcEs2o2WNqkPgkrEWY+bURS8VMJiTO/jNmBmoruntcs54vTlJ5f50s1uO0DQndiBnnlcxXHex3Fz6zXvhj5GnDc7OZNge4CmwRuN3iSSTQzGM/WYJnTeLFyrcLtgJKLFPaFQM2tKP8Cse13TVedwxfUgT3IpXhUtHv20H/XcfmTxBvyLytsFggETelg3TkKE+dMenwenOp9p1M8N7HWkR8otn9za2vYArVN1/nybcZ9BPLZAFWOKRAZc9ZJU8lliU2uaJqQ/iBlUqetpoeiPyRuujgyD1W/V8djYkCmLntSZgoyJpFcT/u7IImFpjLfBb3Dl5pUIkzVhYlpa26W6oMAAAAAAAAEjzCCBIswggNzoAMCAQICDkcHsQGaDFetObPhfan5MA0GCSqGSIb3DQEBCwUAMFcxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMRAwDgYDVQQLEwdSb290IENBMRswGQYDVQQDExJHbG9iYWxTaWduIFJvb3QgQ0EwHhcNMTUwOTA0MDAwMDAwWhcNMjUwOTA0MDAwMDAwWjBmMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTE8MDoGA1UEAxMzR2xvYmFsU2lnbiBPcmdhbml6YXRpb24gVmFsaWRhdGlvbiBDQSAtIFNIQTI1NiAtIEczMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyYaiBT7sd015QoHyxUapwpv5V6lI3Tw74hZHgxUMNohhs8i51SCXtv4HMAGeATr5UIegT2DMkPbdH6bHVQBsVDFfApr3fwea0iJTBc2fx7t7WTuKspN4DUMCknalKfh8nVw6ovhSciJFkf2QEihNdeTdqnlYaG8qfnvv0Z5/UtzLHEjiPk1cR3q08c7/2WArd9FiIi2pWgYW7jdqUc+OpdFucErw2GNganJV1/GZOIZEZxjgcY7BQG2F2kvdMXO8Msxvjnu5jUuA2rnHxiSDXjL7h+mLYWeimXbbpaq06GxBn18qs9V915LIJ0vsH9oFbYhzjwayOD0DouGHhjzGoQIDAQABo4IBRDCCAUAwDgYDVR0PAQH/BAQDAgEGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBRohrh9etltSWuHLxiLFTRs17R6DjAfBgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzA9BggrBgEFBQcBAQQxMC8wLQYIKwYBBQUHMAGGIWh0dHA6Ly9vY3NwLmdsb2JhbHNpZ24uY29tL3Jvb3RyMTAzBgNVHR8ELDAqMCigJqAkhiJodHRwOi8vY3JsLmdsb2JhbHNpZ24uY29tL3Jvb3QuY3JsMEcGA1UdIARAMD4wPAYEVR0gADA0MDIGCCsGAQUFBwIBFiZodHRwczovL3d3dy5nbG9iYWxzaWduLmNvbS9yZXBvc2l0b3J5LzANBgkqhkiG9w0BAQsFAAOCAQEAmrmCHN2Dg4uSwMTtAa2E/E7ubZwdAfpSFNvYwhBjn2s5msccPKCq4xk6/GRGKu81JgP2BWf6bnThRvtA2G+uLTkhdIafAAUaPy+TW9SkRbw9DCkXWtP7aKYP4ABoebBMsUWLyIWMZw6MfVT4sHXOCqwd12tErP4b1KaYIQk+okszurpLEqhrVyed+pSAtGhMd2D/1ylaOD3OLUsIVp9py3vY4jb5N2nFzjaXHLoNPxWzZaDsdBK9s63o3p6h7NO/qeClkW2DWRJWLxOmfnlzoaOJ1eGljM4trIrPYhZlzdnuqLZACLV8UPk3gnqkCzRm7OmXVx+KZz6BvDs10ypIDGYKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAAA3kwggN1MIICXaADAgECAgsEAAAAAAEVS1rDlDANBgkqhkiG9w0BAQUFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTk4MDkwMTEyMDAwMFoXDTI4MDEyODEyMDAwMFowVzELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExEDAOBgNVBAsTB1Jvb3QgQ0ExGzAZBgNVBAMTEkdsb2JhbFNpZ24gUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANoO5pmNzqPjT4p++/GLgyVr6kgf8SqwuZURBL3wY9HiZ2bPHN3PG0gr7o2JjpqvKYBlq+nHLRLLqxxMcAehPQowzRWNT/jd1IxQFRzvUO7ELvf86VLykX3gbdU1MI5eQ3PyQenVauOyiTpWOThvBjyIaVsqTcWnVLhsicyb+TzK5f2J9RI8kniW1tx0bpNEYdGNx0aydQ6G6BmK1W1s1XgWlaLpyAo46/IkE09zVJMThTobvB40tYsFjLl3i7HbHyCRqwlTbpDOezd0uXBHkSJRYxZ5rrGuQSYIyBkr0UaqSNZkKteDNP8sKsFsGUNKB4Xn03z2IWjv6vJSn3+TkM8CAwEAAaNCMEAwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFGB7ZhpFDZfKiVAvfQTNNKj//P1LMA0GCSqGSIb3DQEBBQUAA4IBAQDWc+d8T3bQjb/suqK+NMUoMrV8/GycLCu9CZ5Tv2teqhFItuUIo7PKPWFN00YJsz7DoONjVRvyuu+tOeFDuTij5i+KJjvvoFBW+cYK/TjNxAtwUZSXmATfw1+U1RXJFEGcxF11ZBUN/1Uw7IaP/w3vLLljRvaq/N+8af0uEkhkmuCV8KbvKY8BsRW1DB2l/mksaSR4HrOnHHFi7srIl6wXXYrC+EeGbirEVjGV0GeJhSv5bKZdRp0MqoLkmVHdcLfbVj1h5GrhXNb2/j3eQcwHrmNSv1NT9Cvpx/2294JfhdJBGNuBswQcxR+kgG8VIMneDIgKHdZmVeL8SMkpJmngAAAAAQAAAAJoMgABAAAAAEd0bHNmbGFnczB4MDAwMDAwMDA6d3gubWFpbC5xcS5jb206NDQzXnBhcnRpdGlvbktleT0lMjhodHRwcyUyQ3FxLmNvbSUyOQAA request-method GET response-head HTTP/2 200 
+strict-transport-security: max-age=31536000
+origin-agent-cluster: ?0
+content-type: text/html; charset=utf-8
+X-Firefox-Spdy: h2
+ original-response-headers strict-transport-security: max-age=31536000
+origin-agent-cluster: ?0
+content-type: text/html; charset=utf-8
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 145 net-response-time-onstop 152   5x

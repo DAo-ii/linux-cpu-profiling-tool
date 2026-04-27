@@ -1,0 +1,14 @@
+---
+pid: 19175
+cwd: /home/yxy
+last_command: sudo python3 analyzer.py 20260427_175329
+last_exit_code: 0
+---
+yxy@yxy-VMware-Virtual-Platform:~$ sudo ls data/
+[sudo] yxy 的密码： 
+perf_20260427_175329.data
+yxy@yxy-VMware-Virtual-Platform:~$ sudo python3 analyzer.py 20260427_175329
+[2026-04-27 17:55:47] 已选择最近的采样文件：data/perf_20260427_175329.data（匹配方式=filename_ts，时间差≈0s）。
+[2026-04-27 17:55:47] 正在解析 perf 数据并生成火焰图（可能需要一些时间）...
+[2026-04-27 17:55:48] 成功生成模板图：flamegraph_20260427_175329.svg（大小 213305 bytes）。
+yxy@yxy-VMware-Virtual-Platform:~$

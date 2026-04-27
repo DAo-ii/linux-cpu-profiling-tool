@@ -1,0 +1,334 @@
+<!DOCTYPE html><html lang=zh-cmn><head xmail_uin=$body.uin.DATA$><style type=text/css>html,
+    body {
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+      height: 100%;
+      width: 100%;
+    }</style><script type=text/javascript>document.write("<script type='text/javascript' src='https://rescdn.qqmail.com/qqmail/assets/deviceString.js?r=" + Date.now() + "'><\/script>");</script><meta charset=UTF-8><meta name=format-detection content="telephone=no"><meta name=renderer content=webkit><meta name=save content=history><meta name=version content=mico><meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1"><meta http-equiv=Content-Type content="text/html; charset=utf-8"><link rel=icon type=image/png sizes=16x16 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_16h.bc34dcb.png><link rel=icon type=image/png sizes=32x32 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_32h.65f829f.png><link rel=icon type=image/png sizes=48x48 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_48h.4e79647.png><link rel=icon type=image/png sizes=96x96 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_96h.8d124a7.png><script nonce=$param.nonce.DATA$>!function(){var n=/^[a-zA-Z_\\-]+(?=#)/,r=/^[a-zA-Z_\\-]+#/;function _(n,r){return n.replace(/{(\d+)}/g,(function(n,_){return _ in r?r[_]:n}))}window.I18N={r:function(n,r){return _(n,r)},t:function(e,t){e=e||"";var i=n.exec(e),u=(window.__I18N_PKG__||{})[window.__I18N_LANG__]||{};if(i&&u[i[0]])return _(u[i[0]],t);return _(e.replace(r,""),t)}}}()</script><meta charset=UTF-8><meta name=format-detection content="telephone=no"><meta name=renderer content=webkit><meta name=save content=history><meta name=version content=mico><meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1"><meta http-equiv=Content-Type content="text/html; charset=utf-8"><link rel=icon type=image/png sizes=16x16 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_16h.bc34dcb.png><link rel=icon type=image/png sizes=32x32 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_32h.65f829f.png><link rel=icon type=image/png sizes=48x48 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_48h.4e79647.png><link rel=icon type=image/png sizes=96x96 href=https://res.wx.qq.com/t/webmail/webmail/res/static/images/base/style/favicon/qqmail_favicon_96h.8d124a7.png><script nonce=$param.nonce.DATA$>function createRequest(e){try{var t=window.ActiveXObject?new ActiveXObject("Microsoft.XMLHTTP"):window.XMLHttpRequest?new XMLHttpRequest:null;t.open(e.method,e.url),t.onreadystatechange=function(){4===t.readyState&&200===t.status&&(console.log("this is response",t),e.success&&e.success(JSON.parse(t.responseText)))},t.send(e.params)}catch(e){console.error("http request error",e)}}var webAssemblySupported=function(){try{if("object"==typeof WebAssembly&&"function"==typeof WebAssembly.instantiate){var e=new WebAssembly.Module(Uint8Array.of(0,97,115,109,1,0,0,0));if(e instanceof WebAssembly.Module)return new WebAssembly.Instance(e)instanceof WebAssembly.Instance}}catch(e){console.log(e)}return!1}();function getCookie(e){for(var t=e+"=",n=document.cookie.split(";"),o=0;o<n.length;o++){for(var s=n[o];" "===s.charAt(0);)s=s.substring(1,s.length);if(0===s.indexOf(t))return s.substring(t.length,s.length)}return""}function setCookie(e,t,n){var o;if(n){var s=new Date;s.setTime(s.getTime()+24*n*60*60*1e3),o="; expires="+s.toUTCString()}else o="";document.cookie=e.toString()+"="+t.toString()+o.toString()+"; path=/; domain=.mail.qq.com"}function deleteCookie(e){setCookie(e,"",-1)}function IEVersion(){var e=navigator.userAgent,t=e.indexOf("Trident")>-1&&e.indexOf("rv:11.0")>-1;if(e.indexOf("compatible")>-1&&e.indexOf("MSIE")>-1){new RegExp("MSIE (\\d+\\.\\d+);").test(e);var n=parseFloat(RegExp.$1);return n>=7&&n<=10?n:6}return t?11:-1}</script><script nonce=$param.nonce.DATA$>function getCookie(e){var t=new RegExp("(?:^|;+|\\s+)"+e+"=([^;]*)"),r=document.cookie.match(t);return(r?r[1]:"")||""}function getQuery(e){var t=new RegExp("(^|&)"+e+"=([^&]*)(&|$)"),r=window.location.search.substr(1).match(t);return null!=r?unescape(r[2]):null}function sendReport(e){}function monitor(e,t){}function getCurrentUin(){return document.head.getAttribute(" xmail_uin")}function tdw(e){}var uin=getCurrentUin()||getCookie("xm_uin")||"0",hosts=["wx.mail.qq.com","secres.wxqcloud.qq.com","res.wx.qq.com","dev.mail.qq.com"],isLoadJsFailed=!1,jsRetryFlag={};function getUrlPath(e){return e.match(/\/js\/.*\.js/g)}function report(e,t){var r="/info/report?func=4&r="+(parseInt(1e13*Math.random())+""+(new Date).getTime()),n=new XMLHttpRequest;n.open("POST",r),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(n=null)},n.send('{"items":[{"itemname":"'+e+'","value":1,"logid": '+(t||"16997")+"}]}")}function _extendAttr(e,t,r){var n={crossorigin:"crossOrigin"};if(e&&e.attributes){for(var o in e.attributes)if(e.attributes.hasOwnProperty(o)){var i=e.attributes[o],a=n[i.name]||i.name;if("integrity"===a&&r>2)continue;t.setAttribute(a,i.value)}e.isBundled&&(t.isBundled=!0)}}function catchLoadError(e){var t=e.nodeName,r="SCRIPT"===t,n=r?"src":"href",o=e[n],i=getRetryUrl(o),a=i.newUrl,s=i.reloadTimes;if(!a)return!1;var c=window.document;if(-1===o.indexOf("/chunk/")&&r){if("loading"===c.readyState){var u="jsRetrySrc"+(new Date).getTime();document.write('<script src="'+a+'" id="'+u+'"><\/script>'),document.getElementById(u).onload=function(){onScriptRetrySuccess(a)}}return!0}var d=document.createElement(t);_extendAttr(e,d,s);var l=e.originLoadHandler||e.onload;d.originLoadHandler=l,d.onerror=function(t){d.parentNode.removeChild(d),e.onerror&&e.onerror(t)};var m=!1;return d.onload=d.onreadystatechange=function(t){m||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState||(m=!0,d.onload=d.onreadystatechange=null,window.onScriptRetrySuccess(a),l&&l(t),r?d.parentNode.removeChild(d):e.parentNode.removeChild(e))},d[n]=a,e.parentNode.insertBefore(d,e),!0}function onScriptRetrySuccess(e){jsRetryFlag[getUrlPath(e)]=!0}function isAssetRetrySuccess(){if(!isLoadJsFailed)return!0;var e=!0,t=!1,r=void 0;try{for(var n,o=Object.keys(jsRetryFlag)[Symbol.iterator]();!(e=(n=o.next()).done);e=!0){var i=n.value;if(!jsRetryFlag[i])return!1}}catch(e){t=!0,r=e}finally{try{!e&&o.return&&o.return()}finally{if(t)throw r}}return!0}function getRetryUrl(e){var t=0,r="",n=e.split("?")[1];if(n){var o=n.match(/autoRetry=(\d+)&?/);o&&o.length>1&&(t=Number(o[1]))}return t<1&&(r=(r=e.replace(/\/\/wx.mail.qq.com/,"//rescdn.qqmail.com").replace(/\/\/secres.wxqcloud.qq.com/,"//rescdn.qqmail.com").replace(/\/\/res.wx.qq.com/,"//rescdn.qqmail.com").replace(/\/\/dev.mail.qq.com/,"//rescdn.qqmail.com"))!==e?r+(n?"&":"?")+"autoRetry=1":""),{newUrl:r,reloadTimes:t+1}}function getUrlParam(e){var t,r,n,o=window.location.href,i=o.substring(o.indexOf("?")+1).split("#")[0];if(i)for(t=i.split("&"),r=0;r<t.length;r++)if((n=t[r].split("="))[0]===e)return n[1];return null}window.addEventListener("error",(function(e){try{if(!event||!event.target||!event.srcElement)return;var t=event.target||event.srcElement,r=t.src||t.href||"";if(r.indexOf(".js")>-1||r.indexOf(".css")>-1){for(var n=!1,o=0;o<hosts.length;o++)if(r.indexOf(hosts[o])>-1){n=!0;break}if(!n)return;isLoadJsFailed||(isLoadJsFailed=!0),jsRetryFlag[getUrlPath(r)]=!1,catchLoadError(t)&&e.stopImmediatePropagation()}}catch(e){console.warn(e)}}),!0),window.onScriptRetrySuccess=onScriptRetrySuccess,window.__isAssetRetrySuccess=isAssetRetrySuccess;var sid=getUrlParam("sid")||getCookie("xm_sid")||"";function makeRequest(e,t){return new Promise((function(r,n){var o=new XMLHttpRequest;o.open(e,t),o.setRequestHeader("Accept","application/json, text/plain, */*"),o.onload=function(){this.status>=200&&this.status<300?r(o.response):n({status:this.status,statusText:o.statusText})},o.onerror=function(){n({status:this.status,statusText:o.statusText})},o.send()}))}function setCookie(e,t,r){var n;if(r){var o=new Date;o.setTime(o.getTime()+24*r*60*60*1e3),n="; expires="+o.toUTCString()}else n="";document.cookie=e.toString()+"="+t.toString()+n.toString()+"; path=/; domain=.mail.qq.com"}function deleteCookie(e){setCookie(e,"",-1)}function getRandomString(){return(1e13*Math.random()).toFixed(0).toString()+Date.now()}</script></head><body><div><img id=insertLoading src=https://rescdn.qqmail.com/qqmail/images/xmail-loading2x.gif style="width: 48px; height: 48px; position: absolute;top: 46%;left: 50%;margin-left: -24px;margin-top: -24px;"> <img id=commonLoading src=https://rescdn.qqmail.com/qqmail/images/loading.gif style="width: 210px; height: 45px; position: absolute;top: 46%;left: 50%;margin-left: -105px;margin-top: -22.5px; display: none;"></div><script>function getParam(name) {
+      return location.href.match(new RegExp('[?#&]' + name + '=([^?#&]+)', 'i')) ? RegExp.$1 : '';
+    }
+
+    function getResFrom(text, key) {
+      text = text.replace('{"head":{"', '');
+      var arr, val;
+      arr = text.split(',\"');
+      for (var i = 0; i < arr.length; i++) {
+        val = arr[i].split('\":');
+        if (val[0] === key) return val[1].replace(/}/g, '');
+      }
+      return ''
+    }
+
+    function createTicketRequest(config) {
+      try {
+        var isWechat = getParam('lt');
+        // ie6不支持xmlHttpRequest
+        var xhr = window.ActiveXObject ? new ActiveXObject('Microsoft.XMLHTTP') : (window.XMLHttpRequest ? new XMLHttpRequest() : null);
+        xhr.open(config.method, config.url);
+        xhr.onreadystatechange = function () {
+          if(xhr.readyState === 4 && xhr.status === 200) {
+            try {
+              res = JSON.parse(xhr.responseText);
+              if (res.head.ret === 0) {
+                console.log('登录成功', res);
+                if (res.body.s_uin) {
+                  localStorage.setItem('chosen:' + res.body.s_uin, isWechat ? 'wechat' : 'qq');
+                }
+                // if (isLoginProgress) {
+                //   tdw({ module: 'login', action: 'login_with_no_xmtls_succss' }, { immediate: true });
+                // }
+                // top.location.replace(isWechat ? 'https://wx.mail.qq.com' : res.head.location); // 统一使用后台的302
+                top.location.replace(res.head.location)
+              } else {
+                // if (isLoginProgress) {
+                //   tdw({ module: 'login', action: 'login_with_no_xmtls_fail' }, { immediate: true });
+                // }
+                top.location.replace('https://mail.qq.com?cancel_login=true&from=login_jump_login_fail');
+              }
+            } catch (e) {
+              // IE7及以下不支持Json函数，所以得用下面丑陋的方式兼容，别骂我。
+              var responseText = xhr.responseText
+              var ret = getResFrom(responseText, 'ret');
+              if (ret === '0') {
+                console.log('登录成功');
+                var location = getResFrom(responseText, 'location');
+                var s_uin = getResFrom(responseText, 's_uin');
+                if (s_uin) {
+                  localStorage.setItem('chosen:' + s_uin, isWechat ? 'wechat' : 'qq');
+                }
+                // if (isLoginProgress) {
+                //   tdw({ module: 'login', action: 'login_with_no_xmtls_succss' }, { immediate: true });
+                // }
+                var targetUrl = location.indexOf('https://wx.mail.qq.com') < 2 ? location.slice(1, -1) : ('https://wx.mail.qq.com' + location.slice(1, -1));
+                // top.location.replace(isWechat ? 'https://wx.mail.qq.com' : targetUrl); // 统一使用后台的302
+                top.location.replace(targetUrl);
+              } else {
+                // if (isLoginProgress) {
+                //   tdw({ module: 'login', action: 'login_with_no_xmtls_fail' }, { immediate: true });
+                // }
+                top.location.replace('https://mail.qq.com?cancel_login=true&from=login_jump_login_fail2');
+              }
+            }
+          }
+        }
+        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhr.send(config.params)
+      } catch (e) {
+        console.error('http request error', e)
+      }
+    }
+
+    // 获取IE版本
+    function IEVersion() {
+      var userAgent = navigator.userAgent;
+      var isIE11 = userAgent.indexOf('Trident') > -1 && userAgent.indexOf('rv:11.0') > -1;
+      var isLessIE11 = userAgent.indexOf('compatible') > -1 && userAgent.indexOf('MSIE') > -1;
+      if (isLessIE11) {
+        var IEReg = new RegExp('MSIE (\\d+\\.\\d+);');
+        // 正则表达式匹配浏览器的userAgent字符串中MSIE后的数字部分
+        IEReg.test(userAgent);
+        // 取正则表达式中第一个小括号里匹配到的值
+        var IEVersionNum = parseFloat(RegExp['$1']);
+        if (IEVersionNum >= 7 && IEVersionNum <= 10) {
+          // IE7~10
+          return IEVersionNum;
+        } else {
+          // IE版本<7
+          return 6;
+        }
+      } else if (isIE11) {
+        // IE11
+        return 11;
+      } else {
+        // 不是ie浏览器
+        return -1;
+      }
+    }
+
+    // return_target 回调方式
+    // 12 回调安全中心首页
+    var returnTarget = getParam('return_target');
+    var noNeedSecPwd = getParam('auth_type') === '5' || getParam('auth_type') === '8';
+    var isAccountLogin = returnTarget === '12' || (returnTarget === '5' && noNeedSecPwd) || returnTarget === '6';
+    // 关联账号登录
+    var isRelatedAcctLogin = getParam('uin');
+    var lt = getParam('lt');
+    var isWechat = !!lt;
+
+    var target = getParam('target');
+    var delegateUrl = getParam('delegate_url');
+    var redirectTarget = getParam('redirect_target') || 'top';
+
+    // 记住下次登录
+    var ss = getCookie('xm_pstate') ? 1 : 0;
+    // 下面是原 32 位关联账号的处理逻辑
+    // 跳回到主账号
+    var master = getParam('master');
+    // 关联账号的 sid
+    var sid = getParam('sid');
+    // 关联账号的 uin
+    var uin = getParam('uin');
+
+    // auth_type 登录方式
+    // 5 跳过验证独立密码
+    var authType = getParam('auth_type') || 3;
+    var pSkey = getCookie('p_skey');
+
+    // 互联登录// qq
+    var loginType = getParam('login_type') || '';
+    var qqCode = getParam('code') || '';
+    var returnURI = getReturnURI();
+
+    var isConnect = (loginType === "qq" && qqCode);
+    var method = getParam('method');
+    var return_action = getParam('return_action');
+    var return_origin = getParam('return_origin') || '*';
+    var isVerify = getParam('scene') === '2';
+    var isLoginProgress = false;
+    window.isEnVer = getParam('lang') === 'en';
+
+    function getReturnURI() {
+      var url = getParam('return_uri') || '';
+      return /^https:\/\/(wx\.)?mail\.qq\.com(\/|$)/.test(decodeURIComponent(url)) ? url : 0;
+    }
+
+    function ticketLogin() {
+      var wxCode = getParam('code');
+      var qqUin = getCookie('p_uin');
+      var isWechat = getParam('lt');
+      var from = getParam('from');
+      var loginParams = 'filter_param={"timestamp":' + (new Date).getTime() + ',"nonce":"' + String(Math.ceil(Math.random() * 999999999999999 + 1000000000000000)) + '"}';
+
+      // 优先处理isVerify
+      if (isVerify) {
+        // 验证直接走loginToJump
+        loginTojump();
+        return;
+      } else if (wxCode && !isConnect) { // 微信
+        loginParams += '&code=' + wxCode + '&auth_type=1';
+        isLoginProgress = true;
+        // tdw({ module: 'login', action: 'wxcode_login' });
+      } else if (isConnect) { // 互联
+        var authType_connect = getParam('auth_type') || 7;
+        // 互联的情况单独处理
+        loginParams += '&auth_type=' + authType_connect + '&code=' +qqCode;
+        isLoginProgress = true;
+        // tdw({ module: 'login', action: 'connect_login' });
+      } else if (pSkey && qqUin) { // ptlogin
+        loginParams += '&p_uin=' + qqUin + '&p_skey=' + pSkey + '&auth_type=' + authType;
+        isLoginProgress = true;
+        // tdw({ module: 'login', action: 'pskey_login' });
+      } else { // 直接换票，自动登录
+        loginParams += '&auth_type=' + (isWechat ? 1 : 6);
+      }
+
+      // QQ面板的跳转，特殊处理
+      if (from === 'qq_panel') {
+        loginParams += '&from=qq_panel';
+      }
+
+      var url = "https://wx.mail.qq.com/login/login?ss=" + ss + "&ds=&qq_target=" + target + "&delegate_url=" + delegateUrl + "&return_target=" + returnTarget + '&sid=' + sid + '&auth_type=' + authType;
+      createTicketRequest({
+        url: url,
+        method: 'POST',
+        params: loginParams
+      })
+    }
+
+    function login() {
+      var isNotIE = !!(IEVersion() === -1);
+
+      // QQ用户，没有p_skey的时候拦截到登录页去。(不是互联)
+      if (!isWechat && !getCookie('p_skey') && !isRelatedAcctLogin && !isConnect) {
+        deleteCookie('p_uin');
+        top.location.replace(isNotIE ? 'https://wx.mail.qq.com?from=login_jump_redirect' : 'https://mail.qq.com?cancel_login=true&from=login_jump_redirect');
+        return;
+      }
+
+      try {
+        var gsAgent = navigator.userAgent.toLowerCase(),
+            gbIsOpera = gsAgent.indexOf("opera") > -1,
+            gbIsIE = gsAgent.indexOf("compatible") > -1 && !gbIsOpera,
+            gnIEVer = /MSIE (\d+.\d+);/i.test(gsAgent) && parseFloat(RegExp["$1"]);
+        if (!gbIsIE || gnIEVer > 9) {
+          // ie9以上
+          if (!window.Promise) {
+            window.Promise = ES6Promise;
+          }
+          FingerprintJS.load().then(function (fp) {
+            fp.get().then(function (data) {
+              sessionStorage.setItem('visitorId', data.visitorId);
+              loginTojump(data.visitorId);
+            });
+          });
+        } else {
+          loginTojump();
+        }
+      } catch (error) {
+        loginTojump();
+      }
+    }
+
+    // str 生成deviceId的特征量字符串
+    function loginTojump(ds) {
+      ds = !ds ? '' : encodeURIComponent(ds);
+      var urlParams = "&ss=" + ss + "&ds=" + ds + "&qq_target=" + target + "&delegate_url=" + delegateUrl + "&return_target=" + returnTarget;
+      var toUrl = '';
+      if (isVerify && returnURI) { // 验证场景不走换票，请求returnUri
+        // toUrl = `${decodeURIComponent(returnURI)}&code=` + qqCode;
+        toUrl = decodeURIComponent(returnURI) + '&code=' + qqCode;
+      } else if (isWechat) {
+        toUrl = "https://wx.mail.qq.com/login/login?auth_type=1&code=" + qqCode;
+      } else if (isConnect) {
+        // 默认请求
+        var authType_connect = getParam('auth_type') || 7;
+        toUrl = "https://wx.mail.qq.com/login/login?auth_type=" + authType_connect + "&code=" + qqCode;
+      } else {
+        toUrl = "https://wx.mail.qq.com/login/login?auth_type=" + authType;
+      }
+      if (uin) {
+        var back_to_master = master === 'true' ? 1 : 0;
+        urlParams += '&related_uin=' + uin + '&back_to_master=' + back_to_master + '&sid=' + sid;
+      }
+      toUrl += urlParams;
+      // 区分场景
+      // 非验证场景，进行跳转
+      if (!isVerify) {
+        if (redirectTarget === 'self') {
+          location = toUrl;
+        } else {
+          top.location = toUrl;
+        }
+      } else { // 验证场景
+        var actionWin;
+        switch (return_action) {
+          case 'self':
+            actionWin = window;
+            break;
+          case 'parent':
+            actionWin = window.parent;
+            break;
+          default:
+            actionWin = window.top;
+        }
+        if (method !== 'redirect') {
+          // 发出请求，然后通过postMessage返回给父窗口.
+          doVerifyRequest(toUrl, method, return_origin, actionWin);
+        } else {
+          actionWin.location = toUrl;
+        }
+      }
+    }
+
+    function doVerifyRequest(toUrl, method, origin, actionWin) {
+      var request;
+      if (window.XMLHttpRequest) {
+        //Firefox, Opera, IE7, and other browsers will use the native object
+        request = new XMLHttpRequest();
+      } else {
+        //IE 5 and 6 will use the ActiveX control.
+        request = new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      // 默认用POST
+      request.open(method.toUpperCase() === 'GET' ? 'GET' : 'POST', toUrl, true);
+      request.send();
+      request.onreadystatechange = function () {
+        if (request.readyState === 4 && request.status === 200) {//验证请求是否发送成功
+          var json = request.responseText;//获取到服务端返回的数据
+          actionWin.postMessage({
+            event: 'oauth_event',
+            response: JSON.parse(json),
+          }, origin);
+        }
+      }
+    }
+    (function() {
+      // 切换loading图标
+      if (top === window) {
+        document.getElementById('insertLoading').style.display = 'none';
+        document.getElementById('commonLoading').style.display = 'inline-block';
+      }
+
+      if (!webAssemblySupported || isAccountLogin || isRelatedAcctLogin || isVerify) {
+        // 在32位账号被退出之后，刷新页面进入模板换票，此时已经取不到sid，会为‘undefined’。这种情况，视为账号登录态失效，直接踢到登录页.
+        if (getParam('sid') === 'undefined') {
+          top.location.replace('https://mail.qq.com?cancel_login=true&from=session_timeout');
+          // tdw({module: 'login', action: 'wemail_session_timeout_redirect'});
+          return
+        }
+
+        console.log('common login');
+        !isRelatedAcctLogin ? ticketLogin() : login();
+      }
+    })();</script><script src=https://res.wx.qq.com/t/webmail/webmail/res/js/manifest-web.41addb3c2fb048808922.js crossorigin=anonymous></script><script src=https://res.wx.qq.com/t/webmail/webmail/res/js/vendor-web.756d7c98f5b996fa7a65.js crossorigin=anonymous></script><script src=https://res.wx.qq.com/t/webmail/webmail/res/js/login_jump-web.9e2854159fc0883b1259.js crossorigin=anonymous></script></body></html>�V$�
+      f�dJf�dNGc�Df�dK   �    O^partitionKey=%28https%2Cqq.com%29,:https://wx.mail.qq.com/list/readtemplate?name=login_jump.html&scene=1&login_type=qq&code=BA5BCB205F99434ED366D6D609B7EACE necko:classified 1 strongly-framed 1 security-info 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 request-method GET response-head HTTP/2 200 
+strict-transport-security: max-age=31536000
+origin-agent-cluster: ?0
+content-type: text/html; charset=utf-8
+X-Firefox-Spdy: h2
+ original-response-headers strict-transport-security: max-age=31536000
+origin-agent-cluster: ?0
+content-type: text/html; charset=utf-8
+X-Firefox-Spdy: h2
+ ctid 1 uncompressed-len 0 net-response-time-onstart 416 net-response-time-onstop 423   V_

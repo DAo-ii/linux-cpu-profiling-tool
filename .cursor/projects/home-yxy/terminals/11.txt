@@ -1,0 +1,28 @@
+---
+pid: 20774
+cwd: /home/yxy
+active_command: |
+  # 1. 初始化 Gitgit init# 2. 创建 .gitignore 防止上传垃圾文件echo -e "data/\n*.svg\n__pycache__/\n.vscode/" > .gitignore# 3. 提交代码git add .git commit -m "feat: initial commit of the continuous cpu profiling tool"# 4. 关联远程仓库 (请将下面的 URL 换成你刚才在 GitHub 页面上看到的地址)git push -u origin mainttps://github.com/DAo-ii/linux-cpu-profiling-tool.git
+---
+yxy@yxy-VMware-Virtual-Platform:~$ # 1. 初始化 Git
+git init
+
+# 2. 创建 .gitignore 防止上传垃圾文件
+echo -e "data/\n*.svg\n__pycache__/\n.vscode/" > .gitignore
+
+# 3. 提交代码
+git add .
+git commit -m "feat: initial commit of the continuous cpu profiling tool"
+
+# 4. 关联远程仓库 (请将下面的 URL 换成你刚才在 GitHub 页面上看到的地址)
+git push -u origin mainttps://github.com/DAo-ii/linux-cpu-profiling-tool.git
+提示：使用 'master' 作为初始分支的名称。这个默认分支名称可能会更改。要在新仓库中
+提示：配置使用初始分支名，并消除这条警告，请执行：
+提示：
+提示：  git config --global init.defaultBranch <名称>
+提示：
+提示：除了 'master' 之外，通常选定的名字有 'main'、'trunk' 和 'development'。
+提示：可以通过以下命令重命名刚创建的分支：
+提示：
+提示：  git branch -m <name>
+已初始化空的 Git 仓库于 /home/yxy/.git/

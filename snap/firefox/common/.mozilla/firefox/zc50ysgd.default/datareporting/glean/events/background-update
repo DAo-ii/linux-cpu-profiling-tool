@@ -1,0 +1,12 @@
+{"timestamp":29970,"category":"nimbus_events","name":"enrollment","extra":{"experiment":"extensions-migration-in-import-wizard-116-rollout","branch":"control","glean_timestamp":"1777277986329","experiment_type":"rollout"}}
+{"timestamp":30185,"category":"nimbus_events","name":"validation_failed","extra":{"reason":"invalid-feature","experiment":"add-an-image-to-pdf-with-alt-text-rollout","glean_timestamp":"1777277986545","feature":"addAnImageInPDF"}}
+{"timestamp":58386,"category":"nimbus_events","name":"unenrollment","extra":{"branch":"control","reason":"bucketing","experiment":"encrypted-client-hello-fallback-mechanism","glean_timestamp":"1777278014746"}}
+{"timestamp":58572,"category":"nimbus_events","name":"unenrollment","extra":{"experiment":"long-term-holdback-2024-h2-velocity-desktop","branch":"delivery","glean_timestamp":"1777278014931","reason":"recipe-not-seen"}}
+{"timestamp":58575,"category":"nimbus_events","name":"unenrollment","extra":{"reason":"recipe-not-seen","branch":"treatment","experiment":"upgrade-spotlight-rollout","glean_timestamp":"1777278014934"}}
+{"timestamp":58576,"category":"nimbus_events","name":"unenrollment","extra":{"branch":"rollout","reason":"recipe-not-seen","experiment":"phc-rollout","glean_timestamp":"1777278014935"}}
+{"timestamp":58578,"category":"nimbus_events","name":"unenrollment","extra":{"glean_timestamp":"1777278014938","reason":"recipe-not-seen","branch":"treatment","experiment":"highlighting-in-pdfs-rollout"}}
+{"timestamp":58579,"category":"nimbus_events","name":"unenrollment","extra":{"reason":"recipe-not-seen","experiment":"consolidated-search-configuration-row-desktop-relaunch","branch":"rollout","glean_timestamp":"1777278014938"}}
+{"timestamp":58581,"category":"nimbus_events","name":"unenrollment","extra":{"glean_timestamp":"1777278014941","experiment":"disable-redirects-for-authretries","reason":"recipe-not-seen","branch":"control"}}
+{"timestamp":58584,"category":"nimbus_events","name":"unenrollment","extra":{"experiment":"tab-hover-preview-release-rollout","glean_timestamp":"1777278014943","reason":"recipe-not-seen","branch":"control"}}
+{"timestamp":58585,"category":"nimbus_events","name":"unenrollment","extra":{"reason":"recipe-not-seen","experiment":"fpp-floating-point-protection-rollout-linux-only","glean_timestamp":"1777278014944","branch":"control"}}
+{"timestamp":58586,"category":"nimbus_events","name":"unenrollment","extra":{"glean_timestamp":"1777278014945","reason":"recipe-not-seen","branch":"control","experiment":"extensions-migration-in-import-wizard-116-rollout"}}

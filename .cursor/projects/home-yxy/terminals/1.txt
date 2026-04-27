@@ -1,0 +1,53 @@
+---
+pid: 19216
+cwd: |
+  C:\Users\杨昕垚\.cursor\extensions\anysphere.remote-ssh-1.0.48
+---
+ *  此 shell 正在本地计算机上运行，而不是在连接的远程计算机上运行 
+
+Microsoft Windows [版本 10.0.26200.8246]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\杨昕垚\.cursor\extensions\anysphere.remote-ssh-1.0.48>type "C:\Users\杨昕垚\AppData\Local\Temp\cursor_remote_install_faa2652b-5da0-4ac4-8d0a-7a4e5406d097.sh" | ssh -T -D 64390 yxy@192.168.26.129 bash --login -c bash & echo "Exit code: %ERRORLEVEL%. Finished running command."
+yxy@192.168.26.129's password: 
+Configuring Cursor Server on Remote
+Using TMP_DIR: /run/user/1000
+Locking /run/user/1000/cursor-remote-lock.22b9578207e804718960d8bd0eb064c9
+Server script already installed in /home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/bin/cursor-server
+Checking node executable
+v20.18.2
+Checking for running multiplex server: /home/yxy/.cursor-server/bin/multiplex-server/3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8.js        
+Running multiplex server:    6040 /home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/node /home/yxy/.cursor-server/bin/multiplex-server/3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8.js 9ce77e44-73af-4c85-8367-6883ddd9f755 0
+Multiplex server script is already running /home/yxy/.cursor-server/bin/multiplex-server/3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8.js. Running processes are    6040 /home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/node /home/yxy/.cursor-server/bin/multiplex-server/3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8.js 9ce77e44-73af-4c85-8367-6883ddd9f755 0
+Reading multiplex server token file /run/user/1000/cursor-remote-multiplex.token.22b9578207e804718960d8bd0eb064c9.3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8
+Multiplex server token file found
+Reading multiplex server log file /run/user/1000/cursor-remote-multiplex.log.22b9578207e804718960d8bd0eb064c9.3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8
+Checking for code servers
+Code server script is already running /home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/bin/cursor-server. Running processes are    6066 sh /home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/bin/cursor-server --start-server --host=127.0.0.1 --port 0 --connection-token-file /run/user/1000/cursor-remote-code.token.22b9578207e804718960d8bd0eb064c9 --telemetry-level off --enable-remote-auto-shutdown --accept-server-license-terms
+Code server log file is /run/user/1000/cursor-remote-code.log.22b9578207e804718960d8bd0eb064c9
+94e1d684817ff2999c11d0d6: start
+exitCode==0==
+nodeExecutable==/home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/node==
+errorMessage====
+isFatalError==false==
+multiplexListeningOn==45873==
+multiplexConnectionToken==9ce77e44-73af-4c85-8367-6883ddd9f755==
+codeListeningOn==33775==
+codeConnectionToken==2e9fc8d6-6454-4683-9769-901dd1b425b0==
+detectedPlatform==linux==
+arch==x64==
+SSH_AUTH_SOCK====
+DISPLAY====
+94e1d684817ff2999c11d0d6: end
+Unlocking /run/user/1000/cursor-remote-lock.22b9578207e804718960d8bd0eb064c9
+
+***********************************************************************
+* This terminal is used to establish and maintain the SSH connection. *
+l will terminate the connection and disconnect  *
+l will terminate the connection and disconnect  *
+* Cursor from the remote server.                                      *
+l will terminate the connection and disconnect  *
+l will terminate the connection and disconnect  *
+l will terminate the connection and disconnect  *
+* Cursor from the remote server.                                      *
+***********************************************************************

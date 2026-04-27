@@ -1,0 +1,68 @@
+---
+pid: 22040
+cwd: |
+  C:\Users\杨昕垚\.cursor\extensions\anysphere.remote-ssh-1.0.48
+---
+ *  此 shell 正在本地计算机上运行，而不是在连接的远程计算机上运行 
+
+Microsoft Windows [版本 10.0.26200.8246]
+(c) Microsoft Corporation。保留所有权利。
+
+C:\Users\杨昕垚\.cursor\extensions\anysphere.remote-ssh-1.0.48>type "C:\Users\杨昕垚\AppData\Local\Temp\cursor_remote_install_fb633bcd-ee08-467b-a57b-0db20db5fc8b.sh" | ssh -T -D 49841 yxy@192.168.26.129 bash --login -c bash & echo "Exit code: %ERRORLEVEL%. Finished running command."
+yxy@192.168.26.129's password: 
+Configuring Cursor Server on Remote
+Using TMP_DIR: /run/user/1000
+Locking /run/user/1000/cursor-remote-lock.22b9578207e804718960d8bd0eb064c9
+Downloading server via wget from https://downloads.cursor.com/production/e9ee1339915a927dfb2df4a836dd9c8337e17cc2/linux/x64/cursor-reh-linux-x64.tar.gz to cursor-server-92927a66-1f89-4535-8a82-64bd730a83f2.tar.gz
+--2026-04-27 17:17:06--  https://downloads.cursor.com/production/e9ee1339915a927dfb2df4a836dd9c8337e17cc2/linux/x64/cursor-reh-linux-x64.tar.gz
+正在解析主机 downloads.cursor.com (downloads.cursor.com)... 104.18.17.128, 104.18.16.128, 2606:4700::6812:1080, ...
+正在连接 downloads.cursor.com (downloads.cursor.com)|104.18.17.128|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 200 OK
+长度： 89114556 (85M) [application/gzip]
+正在保存至: ‘cursor-server-92927a66-1f89-4535-8a82-64bd730a83f2.tar.gz’
+
+cursor-server-92927 100%[===================>]  84.99M  1.20MB/s    用时 35s   
+
+2026-04-27 17:17:42 (2.42 MB/s) - 已保存 ‘cursor-server-92927a66-1f89-4535-8a82-64bd730a83f2.tar.gz’ [89114556/89114556])
+
+Extracting server contents from cursor-server-92927a66-1f89-4535-8a82-64bd730a83f2.tar.gz
+Extracting...
+Checking node executable
+v20.18.2
+Checking for running multiplex server: /home/yxy/.cursor-server/bin/multiplex-server/3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8.js
+Running multiplex server: 
+Creating multiplex server token file /run/user/1000/cursor-remote-multiplex.token.22b9578207e804718960d8bd0eb064c9.3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8
+Creating directory for multiplex server: /home/yxy/.cursor-server/bin/multiplex-server
+Writing multiplex server script to /home/yxy/.cursor-server/bin/multiplex-server/3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8.js
+Starting multiplex server: /home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/node /home/yxy/.cursor-server/bin/multiplex-server/3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8.js 9ce77e44-73af-4c85-8367-6883ddd9f755 0
+Multiplex server started with PID 6040 and wrote pid to file /run/user/1000/cursor-remote-multiplex.pid.22b9578207e804718960d8bd0eb064c9.3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8
+Reading multiplex server token file /run/user/1000/cursor-remote-multiplex.token.22b9578207e804718960d8bd0eb064c9.3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8
+Multiplex server token file found
+Reading multiplex server log file /run/user/1000/cursor-remote-multiplex.log.22b9578207e804718960d8bd0eb064c9.3ce73d09cffc8f33c6d911e972bd0f6dabbe3e26e810844be8060e6b10987db8
+Checking for code servers
+Code server script is not running
+Creating code server token file /run/user/1000/cursor-remote-code.token.22b9578207e804718960d8bd0eb064c9
+Starting code server script /home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/bin/cursor-server --start-server --host=127.0.0.1 --port 0  --connection-token-file /run/user/1000/cursor-remote-code.token.22b9578207e804718960d8bd0eb064c9 --telemetry-level off --enable-remote-auto-shutdown --accept-server-license-terms &> /run/user/1000/cursor-remote-code.log.22b9578207e804718960d8bd0eb064c9 &
+Code server started with PID 6066 and wrote pid to file /run/user/1000/cursor-remote-code.pid.22b9578207e804718960d8bd0eb064c9
+Code server log file is /run/user/1000/cursor-remote-code.log.22b9578207e804718960d8bd0eb064c9
+b94d284c77510c4685701e42: start
+exitCode==0==
+nodeExecutable==/home/yxy/.cursor-server/bin/linux-x64/e9ee1339915a927dfb2df4a836dd9c8337e17cc0/node==
+errorMessage====
+isFatalError==false==
+multiplexListeningOn==45873==
+multiplexConnectionToken==9ce77e44-73af-4c85-8367-6883ddd9f755==
+codeListeningOn==33775==
+codeConnectionToken==2e9fc8d6-6454-4683-9769-901dd1b425b0==
+detectedPlatform==linux==
+arch==x64==
+SSH_AUTH_SOCK====
+DISPLAY====
+b94d284c77510c4685701e42: end
+Unlocking /run/user/1000/cursor-remote-lock.22b9578207e804718960d8bd0eb064c9
+
+***********************************************************************
+* This terminal is used to establish and maintain the SSH connection. *
+* Closing this terminal will terminate the connection and disconnect  *
+* Cursor from the remote server.                                      *
+***********************************************************************
